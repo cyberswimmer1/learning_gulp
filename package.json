@@ -1,0 +1,40 @@
+{
+    "name": "sanya_verstaet",
+    "version": "1.2.12",
+    "description": "",
+    "keywords": [],
+    "license": "ISC",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "gulp"
+    },
+    "dependencies": {
+        "archiver": "^7.0.1",
+        "axios": "^1.13.5",
+        "dotenv": "^17.2.4",
+        "fs-extra": "^11.3.3"
+    },
+    "devDependencies": {
+        "@release-it/conventional-changelog": "^10.0.4",
+        "autoprefixer": "^10.4.23",
+        "browser-sync": "^3.0.4",
+        "cssnano": "^7.1.2",
+        "del": "^6.0.0",
+        "gulp": "^5.0.1",
+        "gulp-esbuild": "^0.14.1",
+        "gulp-file-include": "^2.3.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-newer": "^1.4.0",
+        "gulp-notify": "^5.0.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-postcss": "^10.0.0",
+        "gulp-sass": "^6.0.1",
+        "gulp-svg-sprite": "^2.0.3",
+        "gulp-svgmin": "^4.1.0",
+        "postcss": "^8.5.6",
+        "release-it": "^19.2.4",
+        "sass": "^1.97.2"
+    }
+}

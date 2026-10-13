@@ -1,0 +1,42 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Сборка
+dist/
+build/
+
+# Кэши и временные файлы
+.cache/
+.parcel-cache/
+.tmp/
+.temp/
+
+# Переменные окружения
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+logs/
+
+# ОС
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Редакторы и IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+*.map
+!src/**/*.map

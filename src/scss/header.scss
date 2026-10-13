@@ -1,0 +1,53 @@
+.header {
+  padding: 16px 220px;
+  background-color: #043873;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__title {
+    color: white;
+    font-size: 28px;
+    font-family: var(--Inter);
+    font-weight: 700;
+  }
+  &__icon {
+    color: white;
+    width: 40px;
+  }
+
+  &__right {
+    display: flex;
+    gap: 60px;
+  }
+  &__navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: var(--Inter);
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  &__arrow {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+  &__nav-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+  }
+}

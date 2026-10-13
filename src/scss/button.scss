@@ -1,0 +1,25 @@
+.button {
+  padding: 16px 0;
+  border-radius: 16px;
+  background-color: #4f9cf9;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--Inter);
+  font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
+  width: 100%;
+
+  &__svg {
+    width: 10px;
+    height: 10px;
+    color: white;
+    flex-shrink: 0;
+  }
+  &--yellow {
+    background-color: #ffe492;
+    color: #043873;
+  }
+}
